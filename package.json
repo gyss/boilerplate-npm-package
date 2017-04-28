@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate-npm-package",
+  "version": "1.0.0",
+  "description": "Base scaffolding for future NodeJS packages",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyss/boilerplate-npm-package.git"
+  },
+  "keywords": [
+    "node",
+    "boilerplate"
+  ],
+  "author": "J. Lladro <gravedian@gmail.com> (http://joselladro.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gyss/boilerplate-npm-package/issues"
+  },
+  "homepage": "https://github.com/gyss/boilerplate-npm-package#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
