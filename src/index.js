@@ -9,7 +9,7 @@ const all = [
     'aurelia',
     'backbone'
 ];
-const random = () => uniqueRandomArray(all);
+const random = uniqueRandomArray(all);
 
 module.exports = {
     all,
