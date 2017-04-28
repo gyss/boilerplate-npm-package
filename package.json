@@ -1,6 +1,6 @@
 {
   "name": "boilerplate-npm-package",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Base scaffolding for future NodeJS packages",
   "main": "src/index.js",
   "scripts": {

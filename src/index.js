@@ -5,7 +5,8 @@ const all = [
     'angular',
     'vue',
     'polymer',
-    'meteor'
+    'meteor',
+    'aurelia'
 ];
 const random = () => uniqueRandomArray(all);
 
