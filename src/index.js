@@ -9,7 +9,15 @@ const all = [
     'aurelia',
     'backbone'
 ];
-const random = uniqueRandomArray(all);
+
+const randomFrameworks = uniqueRandomArray(all);
+const random = function(num = 1) {
+    const randomItems = [];
+    for(let i = 0; i<num; i++) {
+        randomItems.push(randomFrameworks());
+    }
+    return randomItems.length === 1 ? randomItems[0] : randomItems;
+};
 
 module.exports = {
     all,

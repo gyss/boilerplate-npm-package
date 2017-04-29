@@ -19,5 +19,10 @@ describe('Main boilerplate package', function() {
             var randomItem = boilerplate.random();
             expect(boilerplate.all).to.include(randomItem);
         });
+        it('should return an array of random itmes if it has a number', function() {
+            var randomItems = boilerplate.random(3);
+            expect(randomItems).to.have.length(3);
+            randomItems.forEach((item) => expect(boilerplate.all).to.include(item));
+        });
     });    
 }); 
