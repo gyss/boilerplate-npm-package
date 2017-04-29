@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "test": "mocha -w",
-    "test:single": "mocha",
+    "test:single": "istanbul cover -x **/test/** _mocha -- -R spec",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -31,6 +31,7 @@
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
     "ghooks": "2.0.0",
+    "istanbul": "0.4.5",
     "mocha": "3.3.0",
     "semantic-release": "^6.3.2"
   },
