@@ -1,5 +1,5 @@
-const expect = require('chai').expect;
-const boilerplate = require('../src/index');
+import { expect } from 'chai';
+import boilerplate from '../src/index';
 
 describe('Main boilerplate package', function() {
     describe('all', function() {
@@ -16,11 +16,11 @@ describe('Main boilerplate package', function() {
     });
     describe('random', function() {
         it('should return a random item from the list', function() {
-            var randomItem = boilerplate.random();
+            const randomItem = boilerplate.random();
             expect(boilerplate.all).to.include(randomItem);
         });
         it('should return an array of random itmes if it has a number', function() {
-            var randomItems = boilerplate.random(3);
+            const randomItems = boilerplate.random(3);
             expect(randomItems).to.have.length(3);
             randomItems.forEach((item) => expect(boilerplate.all).to.include(item));
         });

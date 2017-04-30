@@ -1,4 +1,4 @@
-const uniqueRandomArray = require('unique-random-array');
+import uniqueRandomArray from 'unique-random-array';
 
 const all = [
     'react',
