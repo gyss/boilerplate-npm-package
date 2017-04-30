@@ -4,7 +4,7 @@ import boilerplate from '../src/index';
 describe('Main boilerplate package', function() {
     describe('all', function() {
         it('should return a complete list of frameworks', function() {
-            expect(boilerplate.all.length).to.be.eq(7);
+            expect(boilerplate.all.length).to.be.eq(8);
         });
         it('should be an array of strings', function() {
             expect(boilerplate.all).to.satisfy(isArrayOfStrings);

@@ -7,7 +7,8 @@ const all = [
     'polymer',
     'meteor',
     'aurelia',
-    'backbone'
+    'backbone',
+    'ember'
 ];
 
 const randomFrameworks = uniqueRandomArray(all);
